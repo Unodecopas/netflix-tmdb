@@ -1,0 +1,46 @@
+.App{
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: black;
+  color: white;
+}
+.App header {
+  display: flex;
+  place-items: center;
+  gap: 2rem;
+
+}
+.App header img {
+  width: 200px;
+}
+.searching{
+  display: flex;
+  place-items: center;
+  border: 1px solid grey;
+  border-radius: 3px;
+  gap:5px;
+  padding: 0.25rem 0.5rem;
+}
+.searching input{
+  border: none;
+  color: white;
+  background-color: black;
+}
+.searching svg{
+  fill: white;
+}
+.searching input:focus{
+  outline: none;
+  color: white;
+}
+
+
+@media screen and (max-width: 425px) {
+  header{
+    display: flex;
+    flex-direction: column;
+  }
+}
